@@ -31,8 +31,8 @@ function addData() {
 }
 
 function removeFailedStudent() {
-  let filteredArr = arr.filter(a => a.marks >= 50);
-    console.log(filteredArr);
+ arr= arr.filter(a => a.marks >= 50);
+    console.log(arr);
   //Write your code here, just console.log
 }
 
@@ -42,8 +42,8 @@ function concatenateArray() {
       { id: 9, name: "Aman rock", age: "20", marks: 85 },
       { id: 11, name: "panther", age: "20", marks: 85 },
     ];
-    let all = arr.concat(arr1);
+    arr = arr.concat(arr1);
   
-  console.log(all)
+  console.log(arr)
   //Write your code here, just console.log
 }
